@@ -64,10 +64,9 @@ min_date = dataset_df["order_purchase_timestamp"].min()
 max_date = dataset_df["order_purchase_timestamp"].max()
  
 with st.sidebar:
-    # Menambahkan logo perusahaan
+    # Logo Olist
     st.image("https://miro.medium.com/v2/resize:fit:640/format:webp/1*HcUknIwnjCOoQJuE7iiwAg.png")
-    
-    # Mengambil start_date & end_date dari date_input
+
     start_date, end_date = st.date_input(
         label='Rentang Waktu Penjualan Olist',min_value=min_date,
         max_value=max_date,
