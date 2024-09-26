@@ -104,7 +104,7 @@ ax.plot(
     monthly_orders_df["order_count"],
     marker='o', 
     linewidth=2,
-    color="#90CAF9"
+    color="#000000"
 )
 ax.tick_params(axis='y', labelsize=20)
 ax.tick_params(axis='x', labelsize=15)
