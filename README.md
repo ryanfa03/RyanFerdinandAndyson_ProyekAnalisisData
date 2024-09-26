@@ -1,0 +1,1 @@
+# RyanFerdinandAndyson_ProyekAnalisisData
